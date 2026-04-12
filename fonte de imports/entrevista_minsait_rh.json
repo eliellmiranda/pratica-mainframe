@@ -1,0 +1,222 @@
+[
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Apresentação Pessoal",
+    "prompt": "Fale um pouco sobre você.",
+    "modelAnswer": "Sou profissional de tecnologia há 16 anos, com experiência sólida em suporte técnico e análise de TI. Também sou engenheiro civil, o que me deu uma base forte em raciocínio lógico e análise metódica de problemas. Atualmente curso Ciências da Computação e trabalho como analista de TI. Em paralelo, criei o Emunah Bank Lab — um laboratório pessoal onde desenvolvo um sistema bancário completo em mainframe usando COBOL, JCL, DB2 e CICS em ambiente z/OS. Meu objetivo é migrar para a área de desenvolvimento mainframe, que é onde estou investindo toda minha energia de estudo."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Motivação pela Empresa",
+    "prompt": "Por que você quer trabalhar nesta empresa?",
+    "modelAnswer": "Pesquisei sobre a Minsait e vi que vocês são referência em modernização de sistemas legados e têm uma operação forte em core bancário e processamento batch. Me identifico com esse tipo de desafio porque é exatamente o que estudo e pratico no meu laboratório pessoal, o Emunah Bank Lab. Quero aplicar o que construí em um ambiente real, contribuir com o time e crescer dentro da operação de vocês."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Pontos Fortes",
+    "prompt": "Quais são seus pontos fortes?",
+    "modelAnswer": "Destaco três: Persistência e autodidatismo — montei sozinho um ambiente mainframe completo do zero, sem curso formal na área, fui aprendendo e construindo até ter um sistema bancário funcional com mais de 10 módulos. Organização e documentação — tudo que faço eu documento, meu projeto no GitHub tem 9 arquivos de documentação técnica, porque acredito que código sem documentação vira problema. Visão ampla de TI — meus 16 anos na área me deram uma visão do ecossistema inteiro, desde o chamado do usuário até a infraestrutura, o que me ajuda a entender o impacto do que estou desenvolvendo."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Pontos a Melhorar",
+    "prompt": "Quais são seus pontos a melhorar?",
+    "modelAnswer": "Às vezes me aprofundo demais em um problema técnico e perco um pouco a noção do tempo. Tenho trabalhado nisso usando timeboxing — defino um limite de tempo para investigar antes de buscar ajuda ou mudar de abordagem. Também estou melhorando minha comunicação técnica para traduzir conceitos complexos de mainframe para pessoas que não são da área."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Visão de Futuro",
+    "prompt": "Onde você se vê daqui a 5 anos?",
+    "modelAnswer": "Me vejo como um desenvolvedor mainframe pleno ou sênior, com domínio profundo de COBOL e DB2, participando de projetos de modernização de sistemas legados. Quero ser referência técnica dentro do time e, eventualmente, contribuir na formação de novos profissionais na área, que está cada vez mais carente de mão de obra qualificada."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Saída do Emprego Anterior",
+    "prompt": "Por que você saiu (ou quer sair) do emprego anterior?",
+    "modelAnswer": "Estou buscando uma posição que esteja mais alinhada com a direção técnica que escolhi — desenvolvimento mainframe. Minha experiência de 16 anos em suporte e análise de TI me deu uma base sólida, mas agora quero focar 100% em COBOL e ambientes z/OS, que é onde invisto meu tempo de estudo e onde vejo meu futuro profissional."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Motivação no Trabalho",
+    "prompt": "O que te motiva no trabalho?",
+    "modelAnswer": "Resolver problemas complexos e ver o resultado funcionando. No Emunah Bank Lab, quando consegui integrar o fluxo completo — do cadastro do cliente até a geração do extrato passando por CICS e DB2 — foi extremamente gratificante. Me motiva saber que sistemas mainframe são a espinha dorsal de bancos e grandes empresas, e que meu trabalho tem impacto direto na operação."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Pressão e Prazos",
+    "prompt": "Como você lida com pressão e prazos apertados?",
+    "modelAnswer": "Priorizo o que é crítico, comunico riscos cedo e foco na entrega. Na área de mainframe, os ambientes de produção têm janelas batch rígidas e não há espaço para improviso — isso me treinou a ser metódico. Quando a pressão aumenta, eu confio no processo: entender o problema, planejar a solução, testar e entregar. Meus 16 anos em suporte técnico também me ensinaram a lidar com urgências sem perder a calma."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Desafio Profissional",
+    "prompt": "Me conte sobre um desafio profissional que você superou.",
+    "modelAnswer": "Na Speedmais, após uma migração de VM, a integração entre o WordPress (RH) e o GLPI (helpdesk) via API REST parou de funcionar. Precisei diagnosticar o problema — que envolvia webhook, autenticação e mudanças de IP — e reconstruir a integração. Não havia documentação do setup anterior. Resolvi analisando logs, testando a API manualmente e refazendo a configuração até restabelecer o fluxo automatizado de chamados."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Feedbacks Negativos",
+    "prompt": "Como você lida com feedbacks negativos?",
+    "modelAnswer": "Encaro como informação útil. Se alguém aponta um problema no meu código ou na minha abordagem, prefiro entender o porquê antes de reagir. No meu projeto pessoal, por exemplo, refiz módulos inteiros depois de perceber que a estrutura inicial não era a melhor. Feedback negativo bem fundamentado é atalho para melhoria."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Equipe ou Sozinho",
+    "prompt": "Você prefere trabalhar em equipe ou sozinho?",
+    "modelAnswer": "Funciono bem nos dois cenários. Meu projeto pessoal mostra que consigo ser produtivo e organizado trabalhando sozinho. Mas sei que em ambiente corporativo, principalmente em mainframe, o trabalho é colaborativo — você depende do DBA, do analista de sistemas, do pessoal de produção. Gosto de colaborar, desde que haja clareza nos papéis e na comunicação."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Resolução de Conflito",
+    "prompt": "Me dê um exemplo de quando você teve que resolver um conflito no trabalho.",
+    "modelAnswer": "Em um projeto de integração, houve divergência entre a equipe de infraestrutura e a de desenvolvimento sobre quem era responsável por um erro de comunicação entre sistemas. Em vez de apontar culpados, propus que analisássemos os logs juntos para identificar onde exatamente o fluxo quebrava. Isso tirou o foco da discussão pessoal e colocou no problema técnico, e resolvemos rápido."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Maior Conquista",
+    "prompt": "Qual foi sua maior conquista profissional?",
+    "modelAnswer": "A construção do Emunah Bank Lab do zero. Não é só código — é um sistema bancário simulado com arquitetura documentada, mais de 10 módulos COBOL, 7 copybooks, versionamento no GitHub e documentação técnica de nível profissional. Para alguém que está construindo carreira em mainframe de forma autodidata, ter esse portfólio mostra comprometimento e capacidade de entregar um projeto completo."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Organização de Prioridades",
+    "prompt": "Como você organiza suas prioridades quando tem muitas demandas?",
+    "modelAnswer": "Classifico as tarefas por urgência e impacto, e ataco primeiro o que é crítico. Mantenho um sistema de tracking no meu app pessoal (MFHUB) onde registro o progresso diário dos estudos e projetos. Também uso blocos de tempo para não deixar tarefas importantes serem engolidas pelas urgentes. Isso me ajuda a manter o foco mesmo quando o dia está caótico."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Conhecimento sobre a Empresa",
+    "prompt": "O que você sabe sobre a nossa empresa?",
+    "modelAnswer": "Sei que a Minsait é a empresa de tecnologia do grupo Indra, com atuação forte em transformação digital, modernização de sistemas legados e soluções para o setor financeiro. Vocês têm presença global e no Brasil atuam com grandes bancos e instituições. Me chamou atenção o fato de trabalharem diretamente com core bancário e ambientes mainframe, que é exatamente a área onde estou me especializando."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Pretensão Salarial",
+    "prompt": "Qual é sua pretensão salarial?",
+    "modelAnswer": "Pesquisei o mercado para posições de desenvolvedor COBOL na região e estou alinhado com a faixa praticada. Estou aberto a discutir conforme o pacote completo — benefícios, oportunidades de crescimento e o desafio técnico da posição. O mais importante para mim neste momento é entrar na área e demonstrar meu valor na prática."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Disponibilidade",
+    "prompt": "Você tem disponibilidade para viagens/mudança de cidade?",
+    "modelAnswer": "Sim, tenho flexibilidade para viagens pontuais. Em relação à mudança, estou aberto a avaliar dependendo da oportunidade — o que mais pesa na minha decisão é o projeto técnico e as condições oferecidas."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Como Te Descreveriam",
+    "prompt": "Como seus colegas ou gestores te descreveriam?",
+    "modelAnswer": "Acredito que diriam que sou organizado, confiável e que gosto de entender as coisas a fundo. Sou o tipo de pessoa que documenta o que faz, compartilha o que aprende e não entrega nada pela metade. Também diriam que sou tranquilo no dia a dia, mas firme quando preciso defender uma solução técnica."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Por Que Te Contratar",
+    "prompt": "Por que devemos te contratar?",
+    "modelAnswer": "Porque trago uma combinação rara: motivação genuína pela área de mainframe — num momento em que poucos profissionais jovens escolhem esse caminho — e um portfólio concreto que prova essa motivação. Não estou apenas dizendo que sei COBOL; tenho um sistema bancário completo construído, documentado e publicado no GitHub. Além disso, meus 16 anos em TI e minha formação em engenharia civil me dão uma visão analítica e sistêmica que vai além do código. Não tenho experiência em produção ainda, mas estou preparado para aprender rápido o que só o ambiente real ensina."
+  },
+  {
+    "type": "interview",
+    "kind": "rh",
+    "space": "Entrevista Minsait RH",
+    "subspace": "Perguntas Comportamentais",
+    "spaceIcon": "🏢",
+    "subspaceIcon": "🎯",
+    "title": "Perguntas para o Recrutador",
+    "prompt": "Você tem alguma pergunta para nós?",
+    "modelAnswer": "Sim. Como é o dia a dia da equipe de mainframe aqui e qual é o tamanho do time? Quais são os principais sistemas em COBOL que vocês mantêm? Vocês têm algum projeto de modernização de sistemas legados em andamento? Como funciona o processo de onboarding técnico para novos desenvolvedores?"
+  }
+]

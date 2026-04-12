@@ -1,0 +1,1992 @@
+[
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "SAY básico",
+    "pergunta": "Exiba 'EMUNAH BANK LAB ATIVO'.",
+    "respostaModelo": "/* REXX */ SAY 'EMUNAH BANK LAB ATIVO'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Variáveis",
+    "pergunta": "Declare NOME='ELIEL' e exiba.",
+    "respostaModelo": "/* REXX */ NOME='ELIEL'; SAY 'NOME:' NOME — criadas na atribuição."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Concatenação",
+    "pergunta": "Concatene 'EMUNAH' e 'BANK' com e sem espaço.",
+    "respostaModelo": "SAY A B (com espaço) / SAY A||B (sem espaço). || concatena sem espaço."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "PARSE ARG",
+    "pergunta": "Receba argumento e exiba.",
+    "respostaModelo": "PARSE ARG PARM; SAY 'PARM:' PARM — mantém case. ARG converte maiúscula."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "IF-THEN-ELSE",
+    "pergunta": "Verifique STATUS='A'.",
+    "respostaModelo": "IF STATUS='A' THEN SAY 'ATIVO'; ELSE SAY 'INATIVO'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "SELECT-WHEN",
+    "pergunta": "Trate 'A','I','B' com SELECT.",
+    "respostaModelo": "SELECT; WHEN STATUS='A' THEN SAY 'ATIVO'; ... OTHERWISE SAY 'INVALIDO'; END"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "DO contado",
+    "pergunta": "Loop de 1 a 10.",
+    "respostaModelo": "DO I=1 TO 10; SAY I; END"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "DO WHILE",
+    "pergunta": "Loop enquanto RESP≠'S'.",
+    "respostaModelo": "DO WHILE RESP\\='S'; PULL RESP; END"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "DO UNTIL",
+    "pergunta": "Loop até RC≠0.",
+    "respostaModelo": "DO UNTIL RC\\=0; 'EXECIO 1 DISKR ENTRADA'; END"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "DO FOREVER",
+    "pergunta": "Loop infinito com LEAVE.",
+    "respostaModelo": "DO FOREVER; PULL LINHA; IF LINHA='FIM' THEN LEAVE; END"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "ITERATE",
+    "pergunta": "Pule iteração se zero.",
+    "respostaModelo": "IF VALOR.I=0 THEN ITERATE"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Stems",
+    "pergunta": "Crie array com 5 nomes.",
+    "respostaModelo": "NOME.1='ANA'; ... DO I=1 TO 5; SAY NOME.I; END"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Inicializar stem",
+    "pergunta": "Inicialize SALDO. com zero.",
+    "respostaModelo": "SALDO.=0 — todos os índices retornam 0."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "LENGTH",
+    "pergunta": "Tamanho de 'MAINFRAME'.",
+    "respostaModelo": "SAY LENGTH('MAINFRAME') — retorna 9."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "SUBSTR",
+    "pergunta": "Extraia 4 primeiros de 'EMUNAH'.",
+    "respostaModelo": "SAY SUBSTR('EMUNAH',1,4) — 'EMUN'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "LEFT e RIGHT",
+    "pergunta": "3 chars da esquerda e direita de 'ABCDEF'.",
+    "respostaModelo": "LEFT('ABCDEF',3)='ABC' / RIGHT('ABCDEF',3)='DEF'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "POS",
+    "pergunta": "Posição de 'BANK' em 'EMUNAH BANK LAB'.",
+    "respostaModelo": "SAY POS('BANK','EMUNAH BANK LAB') — 8"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "WORD e WORDS",
+    "pergunta": "Conte palavras e pegue a segunda.",
+    "respostaModelo": "WORDS(FRASE)=3 / WORD(FRASE,2)='BANK'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "STRIP",
+    "pergunta": "Remova espaços de '  EMUNAH  '.",
+    "respostaModelo": "STRIP('  EMUNAH  ')='EMUNAH'. 'L'=esquerda,'T'=direita,'B'=ambos."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "TRANSLATE",
+    "pergunta": "Converta 'abc' para maiúscula.",
+    "respostaModelo": "SAY TRANSLATE('abc') — 'ABC'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "REVERSE",
+    "pergunta": "Inverta 'ABCD'.",
+    "respostaModelo": "SAY REVERSE('ABCD') — 'DCBA'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "COPIES",
+    "pergunta": "Repita '-' 40 vezes.",
+    "respostaModelo": "SAY COPIES('-',40)"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "CENTER",
+    "pergunta": "Centralize 'TITULO' em 40 cols.",
+    "respostaModelo": "SAY CENTER('TITULO',40)"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "OVERLAY",
+    "pergunta": "Sobreponha 'XX' na pos 3 de 'ABCDEF'.",
+    "respostaModelo": "OVERLAY('XX','ABCDEF',3) — 'ABXXEF'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "INSERT",
+    "pergunta": "Insira '-' na pos 3 de 'ABCDEF'.",
+    "respostaModelo": "INSERT('-','ABCDEF',3) — 'ABC-DEF'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "DATATYPE",
+    "pergunta": "Verifique se '12345' é numérico.",
+    "respostaModelo": "DATATYPE('12345','N') — retorna 1 (true)."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "FORMAT",
+    "pergunta": "Formate 1234.5 com 2 decimais.",
+    "respostaModelo": "FORMAT(1234.5,,2) — '1234.50'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Aritmética",
+    "pergunta": "Some, subtraia, multiplique, divida 100 por 3.",
+    "respostaModelo": "100+3=103 / 100-3=97 / 100*3=300 / 100/3=33.3333333"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "NUMERIC DIGITS",
+    "pergunta": "Configure precisão 15 dígitos.",
+    "respostaModelo": "NUMERIC DIGITS 15 — importante para cálculos bancários."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Operador //",
+    "pergunta": "Resto de 17/5.",
+    "respostaModelo": "SAY 17//5 — 2. // é módulo em REXX."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Operador %",
+    "pergunta": "Divisão inteira 17/5.",
+    "respostaModelo": "SAY 17%5 — 3."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "EXECIO DISKR",
+    "pergunta": "Leia todas as linhas de ENTRADA.",
+    "respostaModelo": "'EXECIO * DISKR ENTRADA (STEM LINHA. FINIS' — LINHA.0=total."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "EXECIO DISKW",
+    "pergunta": "Escreva 3 linhas em SAIDA.",
+    "respostaModelo": "'EXECIO 3 DISKW SAIDA (STEM SAIDA. FINIS'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "EXECIO linha a linha",
+    "pergunta": "Leia uma linha por vez.",
+    "respostaModelo": "DO FOREVER; 'EXECIO 1 DISKR ENTRADA'; IF RC\\=0 THEN LEAVE; PULL L; END"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "ALLOC",
+    "pergunta": "Aloque dataset para DDname.",
+    "respostaModelo": "'ALLOC FI(ENTRADA) DA(EMUNAH.ARQ.INPUT) SHR REUSE'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "FREE",
+    "pergunta": "Libere DDname.",
+    "respostaModelo": "'FREE FI(ENTRADA)'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "LISTDS",
+    "pergunta": "Liste atributos de dataset.",
+    "respostaModelo": "'LISTDS EMUNAH.ARQ.CLIENTE.KSDS STATUS'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "OUTTRAP",
+    "pergunta": "Capture saída de comando TSO.",
+    "respostaModelo": "X=OUTTRAP('OUT.'); 'LISTDS ...'; X=OUTTRAP('OFF'); DO I=1 TO OUT.0; SAY OUT.I; END"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "SYSDSN",
+    "pergunta": "Verifique se dataset existe.",
+    "respostaModelo": "IF SYSDSN('EMUNAH.ARQ.CLIENTE.KSDS')='OK' THEN SAY 'EXISTE'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "SYSVAR",
+    "pergunta": "Obtenha USERID.",
+    "respostaModelo": "SAY SYSVAR('SYSUID')"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "PARSE VALUE",
+    "pergunta": "Separe 'EMUNAH-BANK-LAB' por hífen.",
+    "respostaModelo": "PARSE VALUE 'EMUNAH-BANK-LAB' WITH P1 '-' P2 '-' P3"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "PARSE VAR posição",
+    "pergunta": "Recorte campos fixos.",
+    "respostaModelo": "PARSE VAR REGISTRO CODIGO 6 NOME 36 CPF 47 — por posição."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "DATE",
+    "pergunta": "Data atual AAAAMMDD.",
+    "respostaModelo": "DATE('S') — formato Sorted YYYYMMDD."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "TIME",
+    "pergunta": "Hora atual.",
+    "respostaModelo": "TIME() — HH:MM:SS. TIME('L') com microsegundos."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Validação CPF",
+    "pergunta": "Valide 11 dígitos numéricos.",
+    "respostaModelo": "LENGTH(CPF)=11 & DATATYPE(CPF,'N')"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Subrotina",
+    "pergunta": "Crie subrotina SEPARADOR.",
+    "respostaModelo": "CALL SEPARADOR; EXIT; SEPARADOR: SAY COPIES('=',60); RETURN"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Função interna",
+    "pergunta": "Função que retorna valor formatado.",
+    "respostaModelo": "SAY FORMATAR(12345); EXIT; FORMATAR: PARSE ARG V; RETURN FORMAT(V,,2)"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "SIGNAL ON ERROR",
+    "pergunta": "Capture erro com SIGNAL.",
+    "respostaModelo": "SIGNAL ON ERROR; ... ERROR: SAY 'ERRO LINHA' SIGL 'RC='RC; EXIT 12"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "EXIT com RC",
+    "pergunta": "Encerre com RC=8.",
+    "respostaModelo": "EXIT 8 — visível no JCL como RC do step."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "SUBMIT",
+    "pergunta": "Submeta job via REXX.",
+    "respostaModelo": "'SUBMIT EMUNAH.DEV.JCL(EBJLOAD)'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Stem tabela",
+    "pergunta": "Simule tabela de contas.",
+    "respostaModelo": "CONTA.0=3; CONTA.1='00001 CC 1500.00'; ..."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "C2X",
+    "pergunta": "Converta caractere para hex.",
+    "respostaModelo": "C2X('A') — 'C1' (EBCDIC)."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "X2C",
+    "pergunta": "Hex para caractere.",
+    "respostaModelo": "X2C('C1') — 'A'."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "D2X",
+    "pergunta": "Decimal para hex.",
+    "respostaModelo": "D2X(255) — 'FF'."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "X2D",
+    "pergunta": "Hex para decimal.",
+    "respostaModelo": "X2D('FF') — '255'."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "ABS",
+    "pergunta": "Valor absoluto de -150.",
+    "respostaModelo": "ABS(-150) — 150."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "MAX e MIN",
+    "pergunta": "Maior e menor entre 3 valores.",
+    "respostaModelo": "MAX(100,250,175)=250 / MIN(100,250,175)=100"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "TRUNC",
+    "pergunta": "Trunque 3.14159 para 2 decimais.",
+    "respostaModelo": "TRUNC(3.14159,2) — 3.14 (sem arredondamento)."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "SIGN",
+    "pergunta": "Sinal de -50.",
+    "respostaModelo": "SIGN(-50) — retorna -1."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "PARSE UPPER ARG",
+    "pergunta": "Receba argumento em maiúscula.",
+    "respostaModelo": "PARSE UPPER ARG ACAO PARM"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "SIGNAL NOVALUE",
+    "pergunta": "Capture variável não inicializada.",
+    "respostaModelo": "SIGNAL ON NOVALUE; ... NOVALUE: SAY CONDITION('D') 'LINHA' SIGL"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "SIGNAL SYNTAX",
+    "pergunta": "Capture erro de sintaxe.",
+    "respostaModelo": "SIGNAL ON SYNTAX; ... SYNTAX: SAY 'ERRO LINHA' SIGL"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "QUEUED",
+    "pergunta": "Itens na stack.",
+    "respostaModelo": "PUSH 'L1'; PUSH 'L2'; SAY QUEUED() — 2."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "PUSH e PULL",
+    "pergunta": "Stack LIFO.",
+    "respostaModelo": "PUSH 'PRIMEIRO'; PUSH 'SEGUNDO'; PULL X — X='SEGUNDO'."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "QUEUE e PULL",
+    "pergunta": "Queue FIFO.",
+    "respostaModelo": "QUEUE 'PRIMEIRO'; QUEUE 'SEGUNDO'; PULL X — X='PRIMEIRO'."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "SOURCELINE",
+    "pergunta": "Primeira linha do exec.",
+    "respostaModelo": "SOURCELINE(1). Sem arg retorna total de linhas."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "TRACE",
+    "pergunta": "Ative trace interativo.",
+    "respostaModelo": "TRACE I — mostra cada instrução. TRACE R=resultado. TRACE O=off."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Relatório formatado",
+    "pergunta": "Monte cabeçalho com data.",
+    "respostaModelo": "SAY CENTER('EMUNAH BANK LAB',60); SAY CENTER('DATA:' DATE('N'),60); SAY COPIES('=',60)"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Processar lançamentos",
+    "pergunta": "Conte créditos e débitos.",
+    "respostaModelo": "Ler stem, TIPO=SUBSTR(L.I,pos,1); IF TIPO='C' THEN C=C+1; ELSE D=D+1"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "LISTDSI",
+    "pergunta": "Informações do dataset.",
+    "respostaModelo": "X=LISTDSI('dsname'); SAY SYSDSORG SYSRECFM SYSLRECL"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Parm obrigatório",
+    "pergunta": "Exija parâmetro, RC=12 se ausente.",
+    "respostaModelo": "PARSE ARG PARM; IF PARM='' THEN DO; SAY 'ERRO'; EXIT 12; END"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Menu interativo",
+    "pergunta": "Menu com 3 opções.",
+    "respostaModelo": "DO FOREVER; SAY '1-CONS 2-ATUA 3-SAIR'; PULL OPC; SELECT; ... END; END"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Ler membro PDS",
+    "pergunta": "Leia EBJLOAD do PDS de JCL.",
+    "respostaModelo": "ALLOC, EXECIO DISKR, loop SAY, FREE."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Log com timestamp",
+    "pergunta": "Log com data/hora.",
+    "respostaModelo": "SAY DATE('S') TIME() '-' MSG"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Contar registros",
+    "pergunta": "Conte registros em sequencial.",
+    "respostaModelo": "EXECIO * DISKR, SAY R.0."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Verificar RC",
+    "pergunta": "Trate RC≠0 de comando.",
+    "respostaModelo": "'LISTDS ...'; IF RC\\=0 THEN SAY 'NAO ENCONTRADO RC='RC"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "DROP stem",
+    "pergunta": "Libere memória.",
+    "respostaModelo": "DROP DADOS. — remove stem e índices."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "ADDRESS TSO",
+    "pergunta": "Direcione para TSO.",
+    "respostaModelo": "ADDRESS TSO 'LISTDS ...'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "ADDRESS ISPEXEC",
+    "pergunta": "Execute serviço ISPF.",
+    "respostaModelo": "ADDRESS ISPEXEC 'BROWSE DATASET(...)'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Gerar dataset saída",
+    "pergunta": "Crie dataset com 3 linhas.",
+    "respostaModelo": "ALLOC NEW CATALOG, EXECIO DISKW, FREE."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Concatenar datasets",
+    "pergunta": "Dois datasets no mesmo DD.",
+    "respostaModelo": "'ALLOC FI(CONCAT) DA(DS1 DS2) SHR'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Testar membro PDS",
+    "pergunta": "Verifique se membro existe.",
+    "respostaModelo": "SYSDSN('PDS(MEMBRO)')='OK'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Processar delimitador",
+    "pergunta": "Separe 'JOAO;12345;CC'.",
+    "respostaModelo": "PARSE VAR REG NOME ';' CONTA ';' TIPO"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "SPACE",
+    "pergunta": "Normalize espaços.",
+    "respostaModelo": "SPACE('A   B    C',1) — 'A B C'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "COMPARE",
+    "pergunta": "Primeira diferença entre strings.",
+    "respostaModelo": "COMPARE('ABCXEF','ABCDEF') — 4."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "ABBREV",
+    "pergunta": "'CON' é abreviação de 'CONSULTAR'?",
+    "respostaModelo": "ABBREV('CONSULTAR','CON',3) — true."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "INTERPRET",
+    "pergunta": "Execute comando em variável.",
+    "respostaModelo": "CMD='SAY 2+2'; INTERPRET CMD — exibe 4."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "IRXJCL batch",
+    "pergunta": "REXX em step JCL.",
+    "respostaModelo": "PGM=IRXJCL,PARM='MEUEXEC' / SYSEXEC DD / SYSTSPRT DD SYSOUT=*"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Módulo 11",
+    "pergunta": "Calcule dígito verificador.",
+    "respostaModelo": "Loop de trás para frente multiplicando por peso crescente, resto de 11."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "PARM do JCL",
+    "pergunta": "Receba PARM via IRXJCL.",
+    "respostaModelo": "PARSE ARG PARM — em batch, PARM do JCL chega via ARG."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Valor monetário",
+    "pergunta": "Formate 1234567 como '12.345,67'.",
+    "respostaModelo": "V%100=inteiro, V//100=decimais, formatação manual."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Gerar massa",
+    "pergunta": "Gere 10 registros de cliente.",
+    "respostaModelo": "Loop com RIGHT(I,5,'0')||LEFT('NOME',30)||..."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "EBCHKLAB",
+    "pergunta": "Verifique datasets essenciais.",
+    "respostaModelo": "Loop SYSDSN em lista de datasets do lab."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Stem multi-dim",
+    "pergunta": "Simule matriz 3x3.",
+    "respostaModelo": "M.1.1=1; M.1.2=2; ... acesso M.I.J"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "ARG vs PARSE ARG",
+    "pergunta": "Diferença entre ARG e PARSE ARG?",
+    "respostaModelo": "ARG converte para maiúscula. PARSE ARG mantém case original."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "PULL vs PARSE PULL",
+    "pergunta": "Diferença entre PULL e PARSE PULL?",
+    "respostaModelo": "PULL converte para maiúscula. PARSE PULL mantém case."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "REXX e ISPF tables",
+    "pergunta": "Acessar tabela ISPF.",
+    "respostaModelo": "ADDRESS ISPEXEC 'TBOPEN tablename'; 'TBGET'; 'TBCLOSE'"
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "Recursão REXX",
+    "pergunta": "REXX suporta recursão?",
+    "respostaModelo": "Sim. Funções internas podem chamar a si mesmas. Stack cresce. NUMERIC DIGITS é local."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "REXX",
+    "subespaco": "REXX TSO",
+    "iconeEspaco": "📜",
+    "iconeSubespaco": "🖥️",
+    "titulo": "BITAND BITOR",
+    "pergunta": "Operações bitwise.",
+    "respostaModelo": "BITAND(C2X(A),C2X(B)) / BITOR. Operam em strings de caracteres."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "MVC básico",
+    "pergunta": "Escreva MVC para copiar 10 bytes de CAMPOA para CAMPOB.",
+    "respostaModelo": "MVC CAMPOB(10),CAMPOA — copia 10 bytes byte a byte da esquerda para a direita."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "BALR e base",
+    "pergunta": "Qual a função de BALR R12,0 no início de um programa?",
+    "respostaModelo": "Carrega endereço da próxima instrução em R12 (sem desvio). R12 vira registrador base com USING *,R12."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "USING",
+    "pergunta": "Explique USING *,R12 após BALR R12,0.",
+    "respostaModelo": "Informa ao montador que R12 contém endereço base do ponto atual. Referências simbólicas usam deslocamento a partir de R12."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "CLC e branch",
+    "pergunta": "Compare dois campos de 8 bytes e desvie se iguais.",
+    "respostaModelo": "CLC FIELD1(8),FIELD2 / BE EQUAL — CLC compara byte a byte, seta CC. BE desvia se CC=0."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "AR — soma",
+    "pergunta": "Some R3 a R5.",
+    "respostaModelo": "AR R5,R3 — Add Register, soma R3 a R5, resultado em R5."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "SR — subtração",
+    "pergunta": "Subtraia R4 de R7.",
+    "respostaModelo": "SR R7,R4 — resultado em R7."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "LR vs L",
+    "pergunta": "Diferença entre LR R3,R5 e L R3,CAMPO?",
+    "respostaModelo": "LR copia registro-registro (sem memória). L carrega fullword da memória. LR é mais rápido."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "ST",
+    "pergunta": "O que faz ST R5,RESULT?",
+    "respostaModelo": "Armazena fullword (4 bytes) de R5 na memória em RESULT."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "B vs BAL",
+    "pergunta": "Diferença entre B ROTINA e BAL R14,ROTINA?",
+    "respostaModelo": "B é desvio sem retorno. BAL salva endereço de retorno em R14, permite BR R14."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "BR R14",
+    "pergunta": "Quando usar BR R14?",
+    "respostaModelo": "Retorna ao chamador. R14 contém endereço de retorno carregado por BAL/BALR/sistema."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "DC C",
+    "pergunta": "Defina constante 'EMUNAH'.",
+    "respostaModelo": "LABEL DC C'EMUNAH' — 6 bytes EBCDIC."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "DC vs DS",
+    "pergunta": "Diferença entre DC e DS?",
+    "respostaModelo": "DC aloca e inicializa. DS reserva espaço sem inicializar. DS para áreas de trabalho."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "DC F",
+    "pergunta": "Defina fullword com valor 100.",
+    "respostaModelo": "VALOR DC F'100' — 4 bytes alinhados em fronteira de fullword."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "DC H",
+    "pergunta": "Defina halfword com valor 50.",
+    "respostaModelo": "MEIA DC H'50' — 2 bytes alinhados em fronteira de halfword."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "DC P",
+    "pergunta": "Defina packed decimal 12345.",
+    "respostaModelo": "NUMPK DC P'12345' — 3 bytes: 12 34 5C."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "AP",
+    "pergunta": "Some dois campos packed.",
+    "respostaModelo": "AP TOTAL,VALOR — soma VALOR a TOTAL, ambos packed."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "SP",
+    "pergunta": "Subtraia DESCONTO de PRECO (packed).",
+    "respostaModelo": "SP PRECO,DESCONTO — resultado em PRECO."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "ZAP",
+    "pergunta": "O que faz ZAP RESULT,ORIGEM?",
+    "respostaModelo": "Zero and Add Packed: zera RESULT e soma ORIGEM. Move packed respeitando tamanho."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "CP",
+    "pergunta": "Compare dois packed e desvie se maior.",
+    "respostaModelo": "CP SALDO,LIMITE / BH ACIMA — CP compara packed, BH desvia se high."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "MP",
+    "pergunta": "Multiplique QTDE por PRECO (packed).",
+    "respostaModelo": "MP QTDE,PRECO — primeiro operando precisa zeros à esquerda suficientes."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "DP",
+    "pergunta": "Divida TOTAL por PARCELAS (packed).",
+    "respostaModelo": "DP TOTAL,PARCELAS — quociente e resto no primeiro operando."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "PACK",
+    "pergunta": "Converta zoneado para packed.",
+    "respostaModelo": "PACK PKFIELD,ZNFIELD — converte display para packed."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "UNPK",
+    "pergunta": "Converta packed para zoneado.",
+    "respostaModelo": "UNPK ZNFIELD,PKFIELD — último byte terá sinal no zone, pode precisar OI."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "OI para sinal",
+    "pergunta": "Após UNPK, como corrigir zone F0?",
+    "respostaModelo": "OI ZNFIELD+L'ZNFIELD-1,X'F0' — força zone F no último byte."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "MVI",
+    "pergunta": "Mova espaço para primeiro byte de AREA.",
+    "respostaModelo": "MVI AREA,C' ' — Move Immediate, 1 byte (X'40' EBCDIC)."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "Limpar com MVI+MVC",
+    "pergunta": "Limpe 100 bytes com espaços.",
+    "respostaModelo": "MVI AREA,C' ' / MVC AREA+1(99),AREA — propagação byte a byte."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "CLI",
+    "pergunta": "Compare primeiro byte de STATUS com 'A'.",
+    "respostaModelo": "CLI STATUS,C'A' / BE ATIVO — compara byte imediato."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "TRT",
+    "pergunta": "Para que serve TRT?",
+    "respostaModelo": "Translate and Test: varre campo usando tabela, para no primeiro byte não-zero. Validação de caracteres."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "TR",
+    "pergunta": "O que faz TR?",
+    "respostaModelo": "TR CAMPO,TABELA — traduz cada byte usando tabela de 256 bytes como lookup."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "EX",
+    "pergunta": "Explique EX R1,INSTR.",
+    "respostaModelo": "Executa instrução com segundo byte modificado por R1. Usado para MVC/CLC com tamanho variável."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "MVC variável via EX",
+    "pergunta": "MVC com comprimento em R3.",
+    "respostaModelo": "BCTR R3,0 (length-1) / EX R3,MVCINST onde MVCINST é MVC DEST(0),ORIG."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "LA",
+    "pergunta": "O que faz LA R5,0?",
+    "respostaModelo": "Load Address: carrega endereço 0, efetivamente zera R5."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "LA aritmética",
+    "pergunta": "Use LA para incrementar R7.",
+    "respostaModelo": "LA R7,1(,R7) — R7+1 sem afetar condition code."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "LH",
+    "pergunta": "Diferença entre L e LH?",
+    "respostaModelo": "L carrega fullword (4 bytes). LH carrega halfword (2 bytes) com extensão de sinal."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "STH",
+    "pergunta": "Armazene halfword de R5.",
+    "respostaModelo": "STH R5,HALF — 2 bytes menos significativos de R5."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "ICM",
+    "pergunta": "O que faz ICM R3,B'1111',CAMPO?",
+    "respostaModelo": "Insert Characters under Mask: insere bytes conforme máscara. B'1111' = 4 bytes. Seta CC."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "STCM",
+    "pergunta": "Para que serve STCM?",
+    "respostaModelo": "Store Characters under Mask: armazena bytes selecionados do registrador na memória."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "SLL",
+    "pergunta": "Desloque R5 dois bits à esquerda.",
+    "respostaModelo": "SLL R5,2 — Shift Left Logical, multiplica por 4."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "SRL",
+    "pergunta": "Desloque R5 três bits à direita.",
+    "respostaModelo": "SRL R5,3 — Shift Right Logical, divide por 8."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "SLA vs SLL",
+    "pergunta": "Diferença entre SLA e SLL?",
+    "respostaModelo": "SLA preserva bit de sinal (pode overflow). SLL não preserva. SLA para aritmética com sinal."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "SRA",
+    "pergunta": "Desloque R6 à direita preservando sinal.",
+    "respostaModelo": "SRA R6,1 — divide por 2 propagando bit de sinal."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "Registradores convenção",
+    "pergunta": "Registradores para base, retorno e save area?",
+    "respostaModelo": "R12=base, R13=save area, R14=retorno, R15=entry/RC, R0-R1=parâmetros."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "Save area",
+    "pergunta": "Por que 72 bytes na save area?",
+    "respostaModelo": "18 fullwords × 4 = 72. Guarda: forward/backward chain + R14-R12 (15 regs). Padrão linkage OS."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "Entrada linkage",
+    "pergunta": "Sequência padrão de entrada.",
+    "respostaModelo": "STM R14,R12,12(R13) / BALR R12,0 / USING / ST R13,SAVE+4 / LA R13,SAVE."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "Saída linkage",
+    "pergunta": "Sequência padrão de retorno.",
+    "respostaModelo": "L R13,SAVE+4 / LM R14,R12,12(R13) / BR R14."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "Return code R15",
+    "pergunta": "Como setar RC=8?",
+    "respostaModelo": "LA R15,8 antes de BR R14. Chamador verifica R15."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "BC e mnemonics",
+    "pergunta": "Relação entre BC e BE/BNE/BH/BL?",
+    "respostaModelo": "Mnemônicos estendidos de BC. BC 8,LABEL = BE. BC 7,LABEL = BNE. Facilitam leitura."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "Condition code",
+    "pergunta": "Quais valores o CC pode ter?",
+    "respostaModelo": "0=igual/zero, 1=menor/low, 2=maior/high, 3=overflow."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "BNZ",
+    "pergunta": "Quando BNZ desvia?",
+    "respostaModelo": "CC ≠ 0. Resultado diferente de zero ou operandos diferentes."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "BCT loop",
+    "pergunta": "Monte loop de 10 iterações com BCT.",
+    "respostaModelo": "LA R4,10 / LOOP: ... BCT R4,LOOP — decrementa R4, desvia enquanto > 0."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "BXLE",
+    "pergunta": "Para que serve BXLE?",
+    "respostaModelo": "Incrementa R1 por R3(par), compara com R3+1(ímpar,limite), desvia se ≤. Loop com step."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "CVB",
+    "pergunta": "Converta packed para binário.",
+    "respostaModelo": "CVB R5,DBLWORD — packed em doubleword → binário em R5."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "CVD",
+    "pergunta": "Converta binário para packed.",
+    "respostaModelo": "CVD R5,DBLWORD — binário em R5 → packed em doubleword."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "ED",
+    "pergunta": "Para que serve ED?",
+    "respostaModelo": "Edit: formata packed para exibição com padrão de edição (separadores, sinal, supressão zeros)."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "EDMK",
+    "pergunta": "Diferença entre ED e EDMK?",
+    "respostaModelo": "EDMK carrega R1 com endereço do primeiro dígito significativo. Para sinal monetário flutuante."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "WTO",
+    "pergunta": "Escreva WTO para mensagem ao operador.",
+    "respostaModelo": "WTO 'EBPGM01 - PROCESSAMENTO INICIADO' — gera mensagem no console."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "OPEN macro",
+    "pergunta": "Como abrir DCB para leitura?",
+    "respostaModelo": "OPEN (ARQIN,(INPUT)) — abre DCB ARQIN para input."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "CLOSE macro",
+    "pergunta": "Feche dois arquivos.",
+    "respostaModelo": "CLOSE (ARQIN,,ARQOUT) — fecha múltiplos DCBs."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "GET macro",
+    "pergunta": "Leia registro de ARQIN.",
+    "respostaModelo": "GET ARQIN,REGISTRO — lê próximo registro para área REGISTRO."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "PUT macro",
+    "pergunta": "Escreva registro em ARQOUT.",
+    "respostaModelo": "PUT ARQOUT,REGISTRO — escreve conteúdo de REGISTRO."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "DCB",
+    "pergunta": "Defina DCB para arquivo FB80.",
+    "respostaModelo": "ARQIN DCB DDNAME=ENTRADA,DSORG=PS,MACRF=(GM),RECFM=FB,LRECL=80,EODAD=FIMEOF."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "EODAD",
+    "pergunta": "O que acontece sem EODAD?",
+    "respostaModelo": "Abend S001-4 ao atingir EOF. EODAD indica rótulo de desvio no fim do arquivo."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "N (AND)",
+    "pergunta": "AND R5 com máscara X'0000FFFF'.",
+    "respostaModelo": "N R5,=F'65535' — zera 2 bytes superiores."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "O (OR)",
+    "pergunta": "OR R3 com X'80000000'.",
+    "respostaModelo": "O R3,=X'80000000' — liga bit mais significativo."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "XR zerar",
+    "pergunta": "Use XOR para zerar R5.",
+    "respostaModelo": "XR R5,R5 — sempre resulta zero."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "NI",
+    "pergunta": "Desligue bit alto de STATUS.",
+    "respostaModelo": "NI STATUS,X'7F' — AND Immediate, desliga bit 0."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "OI",
+    "pergunta": "Ligue bit baixo de FLAGS.",
+    "respostaModelo": "OI FLAGS,X'01' — OR Immediate, liga bit 7."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "LTR",
+    "pergunta": "Teste se R5 é zero.",
+    "respostaModelo": "LTR R5,R5 — seta CC sem alterar valor. BZ/BM/BP."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "LNR",
+    "pergunta": "O que faz LNR R3,R5?",
+    "respostaModelo": "Load Negative: R3 = -|R5|. Sempre negativo ou zero."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "LPR",
+    "pergunta": "O que faz LPR R3,R5?",
+    "respostaModelo": "Load Positive: R3 = |R5|. Sempre positivo ou zero."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "LCR",
+    "pergunta": "O que faz LCR R3,R5?",
+    "respostaModelo": "Load Complement: R3 = -R5. Inverte sinal."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "AH",
+    "pergunta": "Some halfword a R5.",
+    "respostaModelo": "AH R5,HALF — soma halfword com extensão de sinal."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "MH",
+    "pergunta": "Multiplique R5 por halfword.",
+    "respostaModelo": "MH R5,HALF — resultado em R5 (32 bits), sem par de regs."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "M instrução",
+    "pergunta": "Como funciona M R4,CAMPO?",
+    "respostaModelo": "Multiplicando em R5(ímpar). Resultado 64 bits em R4:R5. R4 deve ser par."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "D instrução",
+    "pergunta": "Como funciona D R4,CAMPO?",
+    "respostaModelo": "Dividendo 64 bits em R4:R5. Quociente em R5, resto em R4."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "MVCL",
+    "pergunta": "Para que serve MVCL?",
+    "respostaModelo": "Move Character Long: move blocos > 256 bytes. Usa pares de registradores."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "CLCL",
+    "pergunta": "Para que serve CLCL?",
+    "respostaModelo": "Compare Logical Character Long: compara blocos > 256 bytes."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "CSECT",
+    "pergunta": "O que é CSECT?",
+    "respostaModelo": "Control Section: unidade compilável e linkável. Nome da CSECT vira entry point."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "LTORG",
+    "pergunta": "Para que serve LTORG?",
+    "respostaModelo": "Força geração do pool de literais naquele ponto. Sem LTORG, vão para o final da CSECT."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "Literal",
+    "pergunta": "O que é literal em Assembly?",
+    "respostaModelo": "Constante com = (=F'0', =C'AB'). Montador aloca no pool automaticamente."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "DS 0D",
+    "pergunta": "O que faz DS 0D?",
+    "respostaModelo": "Alinhamento em doubleword (8 bytes) sem alocar espaço."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "DS 0F",
+    "pergunta": "O que faz DS 0F?",
+    "respostaModelo": "Alinhamento em fullword (4 bytes) sem alocar espaço."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "AMODE RMODE",
+    "pergunta": "O que significam AMODE 31, RMODE ANY?",
+    "respostaModelo": "AMODE 31=endereça até 2GB. RMODE ANY=pode residir acima ou abaixo da linha 16MB."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "BASR vs BALR",
+    "pergunta": "Diferença entre BASR e BALR?",
+    "respostaModelo": "BASR preserva AMODE bit no endereço salvo. Preferida em modo 31-bit."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "Base+displacement",
+    "pergunta": "Explique endereçamento base+displacement.",
+    "respostaModelo": "Endereço = base register + 12-bit displacement (0-4095). Um base cobre 4K."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "Múltiplas bases",
+    "pergunta": "Como usar dois registradores base?",
+    "respostaModelo": "USING *,R12,R11 — R12 cobre 4096 bytes, R11 os próximos. LA R11,4096(,R12)."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "DROP",
+    "pergunta": "O que faz DROP R12?",
+    "respostaModelo": "Informa que R12 não é mais base válida. Referências usam outro base ativo."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "S instrução",
+    "pergunta": "Subtraia fullword de R5.",
+    "respostaModelo": "S R5,VALOR — subtrai fullword na memória de R5."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "A instrução",
+    "pergunta": "Some fullword a R5.",
+    "respostaModelo": "A R5,VALOR — soma fullword na memória a R5."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "C instrução",
+    "pergunta": "Compare R5 com fullword.",
+    "respostaModelo": "C R5,VALOR — CC: 0=igual, 1=R5 menor, 2=R5 maior."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "CH",
+    "pergunta": "Compare R5 com halfword.",
+    "respostaModelo": "CH R5,HALF — halfword estendido com sinal antes da comparação."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "CLR vs CR",
+    "pergunta": "Diferença entre CR e CLR?",
+    "respostaModelo": "CR=comparação algébrica (com sinal). CLR=lógica (unsigned). CLR para endereços."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "NR",
+    "pergunta": "AND entre registradores.",
+    "respostaModelo": "NR R3,R5 — AND lógico, resultado em R3."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "SAVE macro",
+    "pergunta": "O que faz SAVE (14,12)?",
+    "respostaModelo": "Gera STM R14,R12,12(R13) — salva registradores na save area do chamador."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "RETURN macro",
+    "pergunta": "O que faz RETURN (14,12),RC=0?",
+    "respostaModelo": "Restaura regs, seta R15=0, retorna via BR R14."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "SVC",
+    "pergunta": "O que é SVC?",
+    "respostaModelo": "Supervisor Call: interrupção para serviço do SO. SVC 35=WTO. Programas usam macros."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "BXH",
+    "pergunta": "Diferença entre BXH e BXLE?",
+    "respostaModelo": "BXH desvia se R1 > limite. BXLE desvia se R1 ≤ limite. BXH para saída por excesso."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "BZ",
+    "pergunta": "Quando BZ desvia?",
+    "respostaModelo": "CC=0. Resultado zero ou igualdade na comparação."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "SH",
+    "pergunta": "Subtraia halfword de R5.",
+    "respostaModelo": "SH R5,HALF — subtrai halfword da memória de R5."
+  },
+  {
+    "tipo": "exercicio",
+    "espaco": "Assembly",
+    "subespaco": "Assembly z/OS",
+    "iconeEspaco": "⚙️",
+    "iconeSubespaco": "🔧",
+    "titulo": "XI",
+    "pergunta": "Inverta bit de TOGGLE.",
+    "respostaModelo": "XI TOGGLE,X'80' — XOR Immediate, inverte bit mais significativo."
+  }
+]
