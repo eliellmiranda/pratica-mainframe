@@ -1,0 +1,42 @@
+       IDENTIFICATION DIVISION. 
+       PROGRAM-ID. PARAG.
+       ENVIRONMENT DIVISION.
+       CONFIGURATION SECTION.
+       SPECIAL-NAMES.
+           DECIMAL-POINT IS COMMA.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION. 
+        01 NOTA.
+           05 NOTA-1 PIC 9(2)V99 VALUE ZEROS.
+           05 NOTA-2 PIC 9(2)V99 VALUE ZEROS.
+        01 MEDIA.
+           05 MEDIA-ALU PIC 9(2)V99 VALUE ZEROS.
+           05 MEDIA-EDT PIC ZZ,99.
+
+        01 NOMES.
+           05 NOME-ALU PIC A(30).            
+
+
+       PROCEDURE DIVISION.
+       0000-INICIO.
+           PERFORM 1000-PROCESSAR.
+           PERFORM 9000-RESULTADO.
+           STOP RUN.
+       
+       1000-PROCESSAR.
+           DISPLAY 'DIGITE O NOME DO ALUNO: '.
+           ACCEPT NOME-ALU.
+           DISPLAY 'DIGITE A PRIMEIRA NOTA: '.
+           ACCEPT NOTA-1.
+           DISPLAY 'DIGITE A SEGUNDA NOTA: '.
+           ACCEPT NOTA-2.
+
+           COMPUTE MEDIA-ALU =  (NOTA-1 + NOTA-2) / 2.
+           MOVE MEDIA-ALU TO MEDIA-EDT.
+        
+       9000-RESULTADO.
+           DISPLAY 'A MEDIA DO ALUNO: 'NOME-ALU ' EH: ' MEDIA-EDT.     
+           
+
+         
