@@ -1,5 +1,5 @@
       *================================================================*
-      *Este programa recebe 3 notas de um aluno, calula a media e      *
+      *Este programa recebe 3 notas de um aluno, calcula a media e     *
       *informa:                                                        *
       *APROVADO se media >= 7                                          *   
       * RECUPERACAO se media entre 5 e 6.99                            *
@@ -17,17 +17,17 @@
            
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-         01 NOME.
+         01 WS-NOME.
            05 WS-NOME-ALU        PIC X(30)    VALUE SPACES. 
-         01 NOTA.
+         01 WS-NOTA.
            05 WS-NOTA1           PIC 9(02)V99 VALUE ZEROES.
            05 WS-NOTA2           PIC 9(02)V99 VALUE ZEROES.
            05 WS-NOTA3           PIC 9(02)V99 VALUE ZEROES.          
-         01 MEDIA.
+         01 WS-MEDIA.
            05 WS-MEDIA-ALU       PIC 9(02)V99 VALUE ZEROES.
-         01 SITUACAO.
+         01 WS-SITUACAO.
            05 WS-SITUACAO-ALU    PIC X(15)    VALUE SPACES.
-         01 EDIT.
+         01 WS-EDIT.
            05 WS-MEDIA-ALU-EDIT  PIC ZZ,99 VALUE ZEROES.
            
           
@@ -49,7 +49,7 @@
               ACCEPT WS-NOTA3.
                       
        2000-PROCESSAMENTO.
-           COMPUTE WS-MEDIA-ALU =
+           COMPUTE WS-MEDIA-ALU ROUNDED =
                     (WS-NOTA1 + WS-NOTA2 + WS-NOTA3) / 3.
            
            EVALUATE TRUE
