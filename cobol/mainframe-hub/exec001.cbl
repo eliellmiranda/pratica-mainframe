@@ -16,3 +16,4 @@
            ACCEPT WS-USERNAME.
        0001-MSG.
            DISPLAY 'BEM VINDO, ' WS-USERNAME '!'.
+           
