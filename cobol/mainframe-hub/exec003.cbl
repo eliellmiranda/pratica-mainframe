@@ -14,9 +14,6 @@
        01 NUMEROS.
            05 WS-NUM-1 PIC 9(03) VALUE ZEROES.
            05 WS-NUM-2 PIC 9(03) VALUE ZEROES.
-       01 NUM-EDIT.
-           05 WS-NUM-1-EDIT PIC Z(03).
-           05 WS-NUM-2-EDIT PIC Z(03). 
        01 RESULT.
            05 WS-MAIOR PIC Z(03) VALUE ZEROES. 
 
@@ -49,7 +46,7 @@
            DISPLAY 'OS NUMEROS SAO IGUAIS!'.
            STOP RUN.
        3200-MAIOR.
-           DISPLAY 'O MAIOR NUMERO EH: ' WS-MAIOR.
+           DISPLAY 'O MAIOR NUMERO : ' WS-MAIOR.
            STOP RUN.
 
        
