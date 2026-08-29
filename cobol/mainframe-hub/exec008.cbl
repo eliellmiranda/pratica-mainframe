@@ -1,5 +1,6 @@
       *================================================================*
-      *Este programa calcula o fatorial de um numero                   *
+      * PROGRAMA: EXEC008                                              *
+      * OBJETIVO: Este programa calcula o fatorial de um numero        *
       *================================================================*
       
        IDENTIFICATION DIVISION. 
@@ -14,20 +15,18 @@
            05 WS-NUMERO         PIC 9(04) VALUE ZEROES.
            05 WS-NUMERO-EDIT    PIC Z(04).
        01 FATORIAL.
-           05 WS-N              PIC 9(04) VALUE ZEROES.
+           05 WS-CONTADOR       PIC 9(04) VALUE ZEROES.
            05 WS-FATORIAL       PIC 9(20) VALUE 1.
-           05 WS-FATORIAL-EDIT  PIC Z(20).
-
-             
+           05 WS-FATORIAL-EDIT  PIC Z(20).            
           
 
        PROCEDURE DIVISION.
            DISPLAY 'INFORME UM NUMERO: '
            ACCEPT WS-NUMERO.           
 
-           PERFORM VARYING WS-N FROM 1 BY 1
-                     UNTIL WS-N > WS-NUMERO
-              COMPUTE WS-FATORIAL = WS-FATORIAL * WS-N              
+           PERFORM VARYING WS-CONTADOR FROM 1 BY 1
+                     UNTIL WS-CONTADOR> WS-NUMERO
+              COMPUTE WS-FATORIAL = WS-FATORIAL * WS-CONTADOR             
            END-PERFORM.
 
            MOVE WS-NUMERO TO WS-NUMERO-EDIT.
